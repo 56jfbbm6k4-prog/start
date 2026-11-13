@@ -49,7 +49,8 @@ a.tile:focus-visible{outline:2px solid var(--accent)}
 <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
 <main>
   <div class="clock"><div id="time">--:--</div><div id="date"></div></div>
-  <form class="search glass" action="https://www.google.com/search" method="get">
+  <form class="search glass" action="https://duckduckgo.com/"
+    method="get">
     <input name="q" type="search" placeholder="Поиск" autocomplete="off" aria-label="Поиск">
     <button type="submit" aria-label="Искать">&#8250;</button>
   </form>
